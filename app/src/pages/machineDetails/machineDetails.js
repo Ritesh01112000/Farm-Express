@@ -34,7 +34,7 @@ const MachineDetails = () =>{
     
     const fetchAllMachineDetails = async ()=>{
         const apiUrl = process.env.REACT_APP_SERVER_URL;
-        const response = await fetch(`${apiUrl}/machines/getRenters/${selectedMachinedata.machineName}`,{
+        const response = await fetch(`${apiUrl}machines/getRenters/${selectedMachinedata.machineName}`,{
             headers: {
               'Content-Type': 'application/json',
               'Authorization': token,
