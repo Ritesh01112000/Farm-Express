@@ -5,9 +5,9 @@ import {param} from 'express-validator'
 
 const router = express.Router();
 
-router.post('/booking-details',authenticateToken,PostBookings);
+router.post('/booking-details',PostBookings);
 router.get('/getbookings/:emailid',[
     param('email').isEmail().withMessage('Invalid email address'),
-],authenticateToken,getBookings);
+],getBookings);
 
 export default router;
