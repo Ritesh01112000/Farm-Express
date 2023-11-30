@@ -1,5 +1,5 @@
 
-.booking-overlay {
+.profile-overlay {
     position: fixed;
     top: 60px;
     left: 0;
@@ -11,21 +11,29 @@
     justify-content:end;
     z-index: 1;  
   }
-  .booking-content {
+  .profile-content {
       
       background-color: #fff;
       padding: 20px;
+      padding-top:50px;
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      width:70vh;
-      margin-bottom: 15vh;
+      width:60vh;
+      margin-bottom: 40vh;
       margin-right:5vh
     }
     
     .booking-button{
       border-radius: 5px;
       margin:4px;
-    }
+      color:red;
+     }
+     .booking-button:hover{
+      border-radius: 5px;
+      margin:4px;
+      color:black;
+      box-shadow: 2px 2px 7px rgba(88, 84, 84, 0.5);
+     }
     .bookings-box{
       /* border: 2px black solid; */
       box-shadow: 2px 2px 7px rgba(88, 84, 84, 0.5);
@@ -51,4 +59,17 @@
     padding:8px;
     border-radius:5vh;
     font-size: smaller;
+  }
+  .profile-page {
+    text-align: center;
+  }
+  
+  .profile-icon {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+  }
+  
+  .profile-name {
+    margin-top: 10px;
   }
