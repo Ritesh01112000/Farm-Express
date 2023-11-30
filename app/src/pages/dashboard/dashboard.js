@@ -1,6 +1,5 @@
 import React,{useEffect, useState} from "react";
 import { Link } from "react-router-dom";
-import image from "../../assets/FarmRed.jpg";
 import Navbar from "../../components/navbar/navbar";
 import Dialogue from "../machineDetails/dialogue";
 import { useSelector, useDispatch } from "react-redux";
