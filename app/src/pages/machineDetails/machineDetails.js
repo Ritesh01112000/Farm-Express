@@ -1,6 +1,5 @@
 import Navbar from '../../components/navbar/navbar';
 import './machineDetails.css'
-import tractor from '../../assets/Harvester.png'
 import {useEffect, useState} from 'react'
 import Dialogue from './dialogue'
 import { useSelector } from 'react-redux';

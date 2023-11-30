@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../../components/navbar/navbar';
 import './serviceoptions.css';
-import image from '../../assets/FarmBGM.jpg';
-import tractor from '../../assets/tractor.jpeg'
-import harvester from '../../assets/harvester.jpeg'
 import {Link} from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
 import MachineDetails from '../machineDetails/machineDetails'

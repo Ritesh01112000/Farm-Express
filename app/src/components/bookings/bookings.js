@@ -1,7 +1,5 @@
 import './bookings.css'
 import { useEffect, useState } from "react";
-import Tractor from '../../assets/Tractor.png'
-import harvester from '../../assets/Harvester.png'
 import { useSelector,useDispatch } from 'react-redux';
 import {getBooking} from '../../action/bookings'
 
