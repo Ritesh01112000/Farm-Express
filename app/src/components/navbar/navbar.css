@@ -1,0 +1,11 @@
+.nav-buttons{
+    padding:1vh 2vh; 
+    border-radius: 10px;;
+    font-size: large;
+    color:red
+    
+}
+.nav-buttons:hover{
+    background-color: antiquewhite;
+    cursor:pointer
+}

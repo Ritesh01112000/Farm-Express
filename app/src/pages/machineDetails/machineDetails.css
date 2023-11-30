@@ -1,0 +1,194 @@
+/* machineDetails.css */
+
+/* Reset some default browser styles */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&display=swap');
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box model globally */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #dc3545; /* Title color */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm-6 {
+    flex: 0 0 100%;
+    padding: 10px;
+}
+.img-container{
+    padding: 0px calc(15% - 20px);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.description {
+    color: #333;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.owner-container {
+
+    border:2px solid transparent;
+    background-color: #f2f2f2;
+    box-shadow: 2px 2px 7px rgba(88, 84, 84, 0.5);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(100% - 20px);
+    transition:200ms ease-in-out;
+}
+.owner-container:hover {
+    border:2px solid rgb(231, 169, 169);
+    border-radius: 8px;
+    cursor:pointer;
+    box-shadow: 2px 2px 15px rgba(88, 84, 84, 0.5);
+}
+
+.owner-container span {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.owner-info-container {
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 576px) {
+    .col-sm-6 {
+        flex: 0 0 50%;
+    }
+
+    .owner-container {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-6 {
+        flex: 0 0 50%;
+    }
+
+    .owner-container {
+        width: calc(33.3333% - 20px);
+    }
+}
+
+@media (min-width: 992px) {
+    .col-sm-6 {
+        flex: 0 0 50%;
+    }
+
+    .owner-container {
+        width: calc(25% - 20px);
+    }
+}
+
+
+
+
+/* Dialogue.css */
+
+.dialogue-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;  
+}
+  
+  .dialogue-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dialogue-button{
+    border-radius: 5px;
+    margin:4px;
+  }
+  .inc-desc-btn-box{
+    border:2px solid black;
+    border-radius: 5px;;
+    height:30px;
+    width:80px;
+    display:flex;
+  }
+.inc-btn-inner-box{
+    width:30px;
+    text-align: center;
+    border-left: 2px solid black;
+  }
+.inc-btn-inner-box:hover{
+    cursor:pointer;
+    background-color: #686364;
+    color:white;
+
+}
+
+.desc-btn-inner-box{
+    width:30px;
+    text-align: center;
+    border-right: 2px solid black;
+  }
+.desc-btn-inner-box:hover{
+    cursor:pointer;
+    background-color: #686364;
+    color:white;
+
+}
+
+
+  .Qty-inner-box{
+    width:40px;
+    text-align: center;
+    padding-top:1px;
+  }
+  .total-box{
+    display:flex;
+    gap:20px;
+}
+  

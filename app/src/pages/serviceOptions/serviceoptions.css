@@ -1,0 +1,33 @@
+.container-x{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10vh;
+  
+}
+.card {
+    max-width: 300px; /* Adjust the maximum width of the card as needed */
+    margin: 20px;
+    padding-top: 5vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .card-image {
+    width: auto;
+    height: 30vh;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%;
+    }
+  }
+  
