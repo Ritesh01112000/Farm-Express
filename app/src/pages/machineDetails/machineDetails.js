@@ -46,7 +46,9 @@ const MachineDetails = () =>{
   
 
     useEffect(()=>{
+        if (selectedMachinedata && selectedMachinedata.machineName) {
         fetchAllMachineDetails()
+        }
     },[selectedMachinedata.machineName])
 
 
@@ -63,7 +65,7 @@ return(
             </div>
             <div className='col-sm-6 description'>
             <p><b>{selectedMachinedata.description}</b></p>
-    <p>This powerful tractor is equipped with the latest technology...</p>
+    <p>This powerful Machine is equipped with the latest technology...</p>
     <p>Features:</p>
     <ul>
         <li>High horsepower for efficient farming</li>
