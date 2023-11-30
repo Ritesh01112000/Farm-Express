@@ -10,7 +10,7 @@ if (userinfoString) {
 const header = {
     'Content-Type': 'application/json',
     'Authorization': token,
-  }
+  };
 const apiUrl = process.env.REACT_APP_SERVER_URL;
 console.log(apiUrl,"apiUrl")
 

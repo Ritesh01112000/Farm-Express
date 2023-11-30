@@ -36,7 +36,7 @@ const Home =()=> {
                   <span>
                     <h3 className="pt-5 text-center mt-4">
                       <b>
-                        Discover every machine  you need <br />
+                        Find every machine  you need <br />
                         to plan your Farm
                       </b>
                     </h3>
